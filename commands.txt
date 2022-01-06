@@ -1,0 +1,37 @@
+# open PowerShell as admin then run
+wsl.exe --install -d Ubuntu
+# set the new username and password
+
+sudo apt update
+sudo apt install cmatrix
+sudo apt install zsh
+
+https://github.com/ohmyzsh/ohmyzsh#basic-installation
+
+https://github.com/nodesource/distributions/blob/master/README.md#installation-instructions
+
+curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+
+sudo apt-get install -y nodejs
+
+https://www.docker.com/blog/apache-log4j-2-cve-2021-44228
+
+wsl.exe -l -v
+
+PS C:\WINDOWS\system32> wsl.exe --set-version Ubuntu 2
+
+https://hub.docker.com/_/mysql
+
+https://docs.microsoft.com/en-gb/windows/wsl/setup/environment#file-storage
+
+
+Instead of //wsl$/Ubuntu/home/brad/projects do /home/brad/projects
+
+# run Docker for the very first time
+docker compose up
+
+# then run Docker in the background
+docker compose start
+
+# stop the docker container
+docker compose stop
